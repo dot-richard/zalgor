@@ -1,10 +1,12 @@
+# frozen_string_literal: true
+
 require_relative 'lib/zalgor/version'
 
 Gem::Specification.new do |s|
   s.name        = 'zalgor'
   s.version     = Zalgor::VERSION
   s.authors     = ['Richard Kranich']
-  s.homepage    = 'https://github.com/kurukuruk'
+  s.homepage    = 'https://github.com/kurukuruk/zalgor'
   s.license     = 'MIT'
   s.summary     = 'A string destroyer with combining chars.'
   s.description = <<-DESC
